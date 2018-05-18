@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.ScreenshotListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="scenarios.EmailAutomation">
+        <methods>
+          <include name="enterEmail"/>
+          <include name="readRecepientAuthData"/>
+          <include name="enterRecepientPasword"/>
+          <include name="openEmail"/>
+          <include name="addAttachment"/>
+          <include name="validateFrom"/>
+          <include name="logIn"/>
+          <include name="composeEmail"/>
+          <include name="sendEmail"/>
+          <include name="validateBody"/>
+          <include name="logInRecepient"/>
+          <include name="Logout"/>
+          <include name="getRecepientEmailData"/>
+          <include name="enterPasword"/>
+          <include name="getEmailData"/>
+          <include name="setUp"/>
+          <include name="enterRecepientEmail"/>
+          <include name="afterClass"/>
+          <include name="readAuthData"/>
+        </methods>
+      </class> <!-- scenarios.EmailAutomation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
