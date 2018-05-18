@@ -16,11 +16,8 @@ to open , please open index.html file
 errrors screenshots exists in reporter output sidebar
 
 
-# Test Data:
-Exists in excel sheet
-deal 
 
-utility
+# utility
 
 consists of two modules:
 
@@ -36,12 +33,12 @@ pageobjects modules:
 consists of Several Modules, Each include catching objects of an exact page of the project.
 
 
-scenarios
+# scenarios
 
 main script containing test cases to perform the required scenario.
 
 
-sikuli images:
+# sikuli images:
 
 contains the images required for the desktop tool sikuli to search for different elements and catch them.
 
