@@ -8,6 +8,8 @@ TestNG is used to assert that each action was performed successfully and generat
 
 Generating detailed execution status report containing the status of each of the executed steps and the executed test as a whole including screenshots.
 
+two test Email are written in the Excel sheet, however since it is dynamic test data project, You can put any email you want in the excel sheet
+# BUT it has to be a gmail
 # Architecture:
 the project consists of several packages:
 
